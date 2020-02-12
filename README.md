@@ -15,24 +15,24 @@
 
 1. ### Environment Setup
 
-      If you have AWS CDK installed you can close this repository and deploy the stack with,
+    If you have AWS CDK installed you can close this repository and deploy the stack with,
 
-        ```sh
-        # If you DONT have cdk installed
-        npm install -g aws-cdk
+    ```sh
+    # If you DONT have cdk installed
+    npm install -g aws-cdk
 
-        git clone https://github.com/miztiik/serverless-hit-counter.git
-        cd serverless-hit-counter
-        source .env/bin/activate
-        pip install -r requirements.txt
-        ```
+    git clone https://github.com/miztiik/serverless-hit-counter.git
+    cd serverless-hit-counter
+    source .env/bin/activate
+    pip install -r requirements.txt
+    ```
 
-      The very first time you deploy an AWS CDK app into an environment _(account/region)_, you’ll need to install a `bootstrap stack`, Otherwise just go ahead and deploy using `cdk deploy`
+    The very first time you deploy an AWS CDK app into an environment _(account/region)_, you’ll need to install a `bootstrap stack`, Otherwise just go ahead and deploy using `cdk deploy`
 
-        ```sh
-        cdk bootstrap
-        cdk deploy
-        ```
+    ```sh
+    cdk bootstrap
+    cdk deploy
+    ```
 
 1. ## Testing the Solution
 
